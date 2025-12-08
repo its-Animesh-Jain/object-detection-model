@@ -1,0 +1,289 @@
+2025-10-10 00:02:48,319 [CRITICAL] Required file missing: yolov4-tiny.cfg
+2025-10-10 00:02:57,430 [CRITICAL] Required file missing: yolov4-tiny.cfg
+2025-10-10 00:05:31,841 [INFO] Falling back to CPU backend for OpenCV DNN (CUDA backend/target not available or no CUDA devices found)
+2025-10-10 00:05:33,106 [INFO] Starting detector, press 'q' in the window to quit.
+2025-10-10 00:05:33,512 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-10-10_00-05-33.jpg
+2025-10-10 00:05:37,471 [INFO] Quit requested by user
+2025-10-10 00:05:38,120 [INFO] Clean exit
+2025-10-10 00:42:29,860 [INFO] Falling back to CPU backend for OpenCV DNN (CUDA backend/target not available or no CUDA devices found)
+2025-10-10 00:42:31,625 [INFO] Starting detector, press 'q' in the window to quit.
+2025-10-10 00:42:31,990 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-10-10_00-42-31.jpg
+2025-10-10 00:42:34,137 [INFO] Quit requested by user
+2025-10-10 00:42:34,600 [INFO] Clean exit
+2025-10-13 21:58:53,722 [INFO] Falling back to CPU backend for OpenCV DNN (CUDA backend/target not available or no CUDA devices found)
+2025-10-13 21:58:56,474 [INFO] Starting detector, press 'q' in the window to quit.
+2025-10-13 21:58:57,012 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-10-13_21-58-56.jpg
+2025-10-13 21:59:07,096 [INFO] Telegram response: 200 {"ok":true,"result":{"message_id":20,"from":{"id":8291475086,"is_bot":true,"first_name":"My Security Bot","username":"raisoni_security_alert_bot"},"chat":{"id":7038274330,"first_name":"Maximus","last_
+2025-10-13 21:59:07,132 [INFO] Notification sent for label=person
+2025-10-13 21:59:08,773 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-10-13_21-59-08.jpg
+2025-10-13 21:59:15,283 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-10-13_21-59-15.jpg
+2025-10-13 21:59:19,382 [INFO] Telegram response: 200 {"ok":true,"result":{"message_id":21,"from":{"id":8291475086,"is_bot":true,"first_name":"My Security Bot","username":"raisoni_security_alert_bot"},"chat":{"id":7038274330,"first_name":"Maximus","last_
+2025-10-13 21:59:19,384 [INFO] Notification sent for label=cell phone
+2025-10-13 21:59:20,694 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-10-13_21-59-20.jpg
+2025-10-13 21:59:24,457 [INFO] Telegram response: 200 {"ok":true,"result":{"message_id":22,"from":{"id":8291475086,"is_bot":true,"first_name":"My Security Bot","username":"raisoni_security_alert_bot"},"chat":{"id":7038274330,"first_name":"Maximus","last_
+2025-10-13 21:59:24,461 [INFO] Notification sent for label=remote
+2025-10-13 21:59:26,124 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-10-13_21-59-26.jpg
+2025-10-13 21:59:32,924 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-10-13_21-59-32.jpg
+2025-10-13 21:59:36,175 [INFO] Telegram response: 200 {"ok":true,"result":{"message_id":23,"from":{"id":8291475086,"is_bot":true,"first_name":"My Security Bot","username":"raisoni_security_alert_bot"},"chat":{"id":7038274330,"first_name":"Maximus","last_
+2025-10-13 21:59:36,178 [INFO] Notification sent for label=cell phone
+2025-10-13 21:59:40,438 [INFO] Telegram response: 200 {"ok":true,"result":{"message_id":24,"from":{"id":8291475086,"is_bot":true,"first_name":"My Security Bot","username":"raisoni_security_alert_bot"},"chat":{"id":7038274330,"first_name":"Maximus","last_
+2025-10-13 21:59:40,442 [INFO] Notification sent for label=banana
+2025-10-13 21:59:41,897 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-10-13_21-59-41.jpg
+2025-10-13 21:59:47,008 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-10-13_21-59-46.jpg
+2025-10-13 21:59:52,761 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-10-13_21-59-52.jpg
+2025-10-13 21:59:55,530 [INFO] Telegram response: 200 {"ok":true,"result":{"message_id":25,"from":{"id":8291475086,"is_bot":true,"first_name":"My Security Bot","username":"raisoni_security_alert_bot"},"chat":{"id":7038274330,"first_name":"Maximus","last_
+2025-10-13 21:59:55,533 [INFO] Notification sent for label=cell phone
+2025-10-13 21:59:57,562 [INFO] Quit requested by user
+2025-10-13 21:59:58,164 [INFO] Clean exit
+2025-10-15 09:14:14,320 [INFO] Falling back to CPU backend for OpenCV DNN (CUDA backend/target not available or no CUDA devices found)
+2025-10-15 09:14:16,341 [INFO] Starting detector, press 'q' in the window to quit.
+2025-10-15 09:14:16,758 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-10-15_09-14-16.jpg
+2025-10-15 09:14:23,645 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-10-15_09-14-23.jpg
+2025-10-15 09:14:29,863 [INFO] Telegram response: 200 {"ok":true,"result":{"message_id":26,"from":{"id":8291475086,"is_bot":true,"first_name":"My Security Bot","username":"raisoni_security_alert_bot"},"chat":{"id":7038274330,"first_name":"Maximus","last_
+2025-10-15 09:14:29,895 [INFO] Notification sent for label=cell phone
+2025-10-15 09:14:30,095 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-10-15_09-14-30.jpg
+2025-10-15 09:14:37,407 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-10-15_09-14-37.jpg
+2025-10-15 09:14:42,992 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-10-15_09-14-42.jpg
+2025-10-15 09:14:48,094 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-10-15_09-14-48.jpg
+2025-10-15 09:14:50,317 [INFO] Quit requested by user
+2025-10-15 09:14:51,097 [INFO] Clean exit
+2025-10-19 14:22:27,947 [INFO] Falling back to CPU backend for OpenCV DNN (CUDA backend/target not available or no CUDA devices found)
+2025-10-19 14:22:29,352 [INFO] Starting detector, press 'q' in the window to quit.
+2025-10-19 14:22:30,754 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-10-19_14-22-30.jpg
+2025-10-19 14:22:33,454 [INFO] Quit requested by user
+2025-10-19 14:22:33,899 [INFO] Clean exit
+2025-10-21 23:12:01,977 [INFO] Falling back to CPU backend for OpenCV DNN (CUDA backend/target not available or no CUDA devices found)
+2025-10-21 23:12:05,017 [INFO] Starting detector, press 'q' in the window to quit.
+2025-10-21 23:12:05,877 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-10-21_23-12-05.jpg
+2025-10-21 23:12:15,967 [INFO] Telegram response: 200 {"ok":true,"result":{"message_id":27,"from":{"id":8291475086,"is_bot":true,"first_name":"My Security Bot","username":"raisoni_security_alert_bot"},"chat":{"id":7038274330,"first_name":"Maximus","last_
+2025-10-21 23:12:15,971 [INFO] Notification sent for label=cell phone
+2025-10-21 23:12:16,165 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-10-21_23-12-16.jpg
+2025-10-21 23:12:29,866 [INFO] Telegram response: 200 {"ok":true,"result":{"message_id":28,"from":{"id":8291475086,"is_bot":true,"first_name":"My Security Bot","username":"raisoni_security_alert_bot"},"chat":{"id":7038274330,"first_name":"Maximus","last_
+2025-10-21 23:12:29,870 [INFO] Notification sent for label=cell phone
+2025-10-21 23:12:30,078 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-10-21_23-12-30.jpg
+2025-10-21 23:12:36,143 [INFO] Quit requested by user
+2025-10-21 23:12:37,078 [INFO] Clean exit
+2025-10-26 17:06:52,666 [INFO] Falling back to CPU backend for OpenCV DNN (CUDA backend/target not available or no CUDA devices found)
+2025-10-26 17:06:54,328 [INFO] Starting detector, press 'q' in the window to quit.
+2025-10-26 17:06:54,648 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-10-26_17-06-54.jpg
+2025-10-26 17:06:57,818 [INFO] Quit requested by user
+2025-10-26 17:06:58,303 [INFO] Clean exit
+2025-11-03 01:14:43,431 [INFO] Falling back to CPU backend for OpenCV DNN (CUDA backend/target not available or no CUDA devices found)
+2025-11-03 01:14:44,950 [INFO] Starting detector, press 'q' in the window to quit.
+2025-11-03 01:14:45,274 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-03_01-14-45.jpg
+2025-11-03 01:14:50,464 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-03_01-14-50.jpg
+2025-11-03 01:14:55,546 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-03_01-14-55.jpg
+2025-11-03 01:15:01,189 [INFO] Telegram response: 200 {"ok":true,"result":{"message_id":29,"from":{"id":8291475086,"is_bot":true,"first_name":"My Security Bot","username":"raisoni_security_alert_bot"},"chat":{"id":7038274330,"first_name":"Maximus","last_
+2025-11-03 01:15:01,194 [INFO] Notification sent for label=cell phone
+2025-11-03 01:15:01,290 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-03_01-15-01.jpg
+2025-11-03 01:15:06,490 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-03_01-15-06.jpg
+2025-11-03 01:15:12,435 [INFO] Quit requested by user
+2025-11-03 01:15:13,166 [INFO] Clean exit
+2025-11-03 01:23:25,920 [INFO] Falling back to CPU backend for OpenCV DNN (CUDA backend/target not available or no CUDA devices found)
+2025-11-03 01:23:27,285 [INFO] Starting detector, press 'q' in the window to quit.
+2025-11-03 01:23:27,657 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-03_01-23-27.jpg
+2025-11-03 01:23:34,393 [INFO] Telegram response: 200 {"ok":true,"result":{"message_id":30,"from":{"id":8291475086,"is_bot":true,"first_name":"My Security Bot","username":"raisoni_security_alert_bot"},"chat":{"id":7038274330,"first_name":"Maximus","last_
+2025-11-03 01:23:34,394 [INFO] Notification sent for label=person
+2025-11-03 01:23:38,306 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-03_01-23-38.jpg
+2025-11-03 01:23:41,143 [INFO] Telegram response: 200 {"ok":true,"result":{"message_id":31,"from":{"id":8291475086,"is_bot":true,"first_name":"My Security Bot","username":"raisoni_security_alert_bot"},"chat":{"id":7038274330,"first_name":"Maximus","last_
+2025-11-03 01:23:41,144 [INFO] Notification sent for label=remote
+2025-11-03 01:23:43,724 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-03_01-23-43.jpg
+2025-11-03 01:23:49,755 [INFO] Telegram response: 200 {"ok":true,"result":{"message_id":32,"from":{"id":8291475086,"is_bot":true,"first_name":"My Security Bot","username":"raisoni_security_alert_bot"},"chat":{"id":7038274330,"first_name":"Maximus","last_
+2025-11-03 01:23:49,756 [INFO] Notification sent for label=person
+2025-11-03 01:23:50,658 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-03_01-23-50.jpg
+2025-11-03 01:23:56,159 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-03_01-23-56.jpg
+2025-11-03 01:24:01,603 [INFO] Telegram response: 200 {"ok":true,"result":{"message_id":33,"from":{"id":8291475086,"is_bot":true,"first_name":"My Security Bot","username":"raisoni_security_alert_bot"},"chat":{"id":7038274330,"first_name":"Maximus","last_
+2025-11-03 01:24:01,605 [INFO] Notification sent for label=donut
+2025-11-03 01:24:02,277 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-03_01-24-02.jpg
+2025-11-03 01:24:06,539 [INFO] Telegram response: 200 {"ok":true,"result":{"message_id":34,"from":{"id":8291475086,"is_bot":true,"first_name":"My Security Bot","username":"raisoni_security_alert_bot"},"chat":{"id":7038274330,"first_name":"Maximus","last_
+2025-11-03 01:24:06,540 [INFO] Notification sent for label=hot dog
+2025-11-03 01:24:07,368 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-03_01-24-07.jpg
+2025-11-03 01:24:13,033 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-03_01-24-13.jpg
+2025-11-03 01:24:18,629 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-03_01-24-18.jpg
+2025-11-03 01:24:22,181 [INFO] Telegram response: 200 {"ok":true,"result":{"message_id":35,"from":{"id":8291475086,"is_bot":true,"first_name":"My Security Bot","username":"raisoni_security_alert_bot"},"chat":{"id":7038274330,"first_name":"Maximus","last_
+2025-11-03 01:24:22,182 [INFO] Notification sent for label=bottle
+2025-11-03 01:24:26,325 [INFO] Quit requested by user
+2025-11-03 01:24:26,966 [INFO] Clean exit
+2025-11-03 12:53:00,146 [INFO] Falling back to CPU backend for OpenCV DNN (CUDA backend/target not available or no CUDA devices found)
+2025-11-03 12:53:01,845 [INFO] Starting detector, press 'q' in the window to quit.
+2025-11-03 12:53:02,167 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-03_12-53-02.jpg
+2025-11-03 12:53:07,183 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-03_12-53-07.jpg
+2025-11-03 12:53:12,914 [INFO] Telegram response: 200 {"ok":true,"result":{"message_id":36,"from":{"id":8291475086,"is_bot":true,"first_name":"My Security Bot","username":"raisoni_security_alert_bot"},"chat":{"id":7038274330,"first_name":"Maximus","last_
+2025-11-03 12:53:12,918 [INFO] Notification sent for label=cell phone
+2025-11-03 12:53:13,049 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-03_12-53-13.jpg
+2025-11-03 12:53:18,039 [INFO] Telegram response: 200 {"ok":true,"result":{"message_id":37,"from":{"id":8291475086,"is_bot":true,"first_name":"My Security Bot","username":"raisoni_security_alert_bot"},"chat":{"id":7038274330,"first_name":"Maximus","last_
+2025-11-03 12:53:18,040 [INFO] Notification sent for label=traffic light
+2025-11-03 12:53:18,419 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-03_12-53-18.jpg
+2025-11-03 12:53:30,966 [INFO] Telegram response: 200 {"ok":true,"result":{"message_id":38,"from":{"id":8291475086,"is_bot":true,"first_name":"My Security Bot","username":"raisoni_security_alert_bot"},"chat":{"id":7038274330,"first_name":"Maximus","last_
+2025-11-03 12:53:30,968 [INFO] Notification sent for label=cell phone
+2025-11-03 12:53:32,502 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-03_12-53-32.jpg
+2025-11-03 12:53:33,486 [INFO] Quit requested by user
+2025-11-03 12:53:34,218 [INFO] Clean exit
+2025-11-04 15:05:57,205 [INFO] Falling back to CPU backend for OpenCV DNN (CUDA backend/target not available or no CUDA devices found)
+2025-11-04 15:05:59,807 [INFO] Starting detector, press 'q' in the window to quit.
+2025-11-04 15:06:00,360 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-06-00.jpg
+2025-11-04 15:06:15,857 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-06-15.jpg
+2025-11-04 15:06:23,307 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-06-23.jpg
+2025-11-04 15:06:28,814 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-06-28.jpg
+2025-11-04 15:06:34,362 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-06-34.jpg
+2025-11-04 15:06:44,858 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-06-44.jpg
+2025-11-04 15:06:56,156 [INFO] Telegram response: 200 {"ok":true,"result":{"message_id":39,"from":{"id":8291475086,"is_bot":true,"first_name":"My Security Bot","username":"raisoni_security_alert_bot"},"chat":{"id":7038274330,"first_name":"Maximus","last_
+2025-11-04 15:06:56,159 [INFO] Notification sent for label=person
+2025-11-04 15:06:57,329 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-06-57.jpg
+2025-11-04 15:07:05,156 [INFO] Telegram response: 200 {"ok":true,"result":{"message_id":40,"from":{"id":8291475086,"is_bot":true,"first_name":"My Security Bot","username":"raisoni_security_alert_bot"},"chat":{"id":7038274330,"first_name":"Maximus","last_
+2025-11-04 15:07:05,159 [INFO] Notification sent for label=cell phone
+2025-11-04 15:07:06,224 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-07-06.jpg
+2025-11-04 15:07:26,862 [INFO] Telegram response: 200 {"ok":true,"result":{"message_id":41,"from":{"id":8291475086,"is_bot":true,"first_name":"My Security Bot","username":"raisoni_security_alert_bot"},"chat":{"id":7038274330,"first_name":"Maximus","last_
+2025-11-04 15:07:26,867 [INFO] Notification sent for label=remote
+2025-11-04 15:07:26,958 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-07-26.jpg
+2025-11-04 15:07:40,652 [ERROR] Failed to send Telegram photo: ('Connection aborted.', TimeoutError('The write operation timed out'))
+Traceback (most recent call last):
+  File "C:\Users\itsan\Desktop\Object_Detector\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\itsan\Desktop\Object_Detector\.venv\Lib\site-packages\urllib3\connectionpool.py", line 493, in _make_request
+    conn.request(
+    ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<6 lines>...
+        enforce_content_length=enforce_content_length,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\itsan\Desktop\Object_Detector\.venv\Lib\site-packages\urllib3\connection.py", line 508, in request
+    self.send(chunk)
+    ~~~~~~~~~^^^^^^^
+  File "C:\Users\itsan\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1057, in send
+    self.sock.sendall(data)
+    ~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\itsan\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1263, in sendall
+    v = self.send(byte_view[count:])
+  File "C:\Users\itsan\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1232, in send
+    return self._sslobj.write(data)
+           ~~~~~~~~~~~~~~~~~~^^^^^^
+TimeoutError: The write operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\itsan\Desktop\Object_Detector\.venv\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\itsan\Desktop\Object_Detector\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\itsan\Desktop\Object_Detector\.venv\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\itsan\Desktop\Object_Detector\.venv\Lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\itsan\Desktop\Object_Detector\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\itsan\Desktop\Object_Detector\.venv\Lib\site-packages\urllib3\connectionpool.py", line 493, in _make_request
+    conn.request(
+    ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<6 lines>...
+        enforce_content_length=enforce_content_length,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\itsan\Desktop\Object_Detector\.venv\Lib\site-packages\urllib3\connection.py", line 508, in request
+    self.send(chunk)
+    ~~~~~~~~~^^^^^^^
+  File "C:\Users\itsan\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1057, in send
+    self.sock.sendall(data)
+    ~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\itsan\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1263, in sendall
+    v = self.send(byte_view[count:])
+  File "C:\Users\itsan\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1232, in send
+    return self._sslobj.write(data)
+           ~~~~~~~~~~~~~~~~~~^^^^^^
+urllib3.exceptions.ProtocolError: ('Connection aborted.', TimeoutError('The write operation timed out'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\itsan\Desktop\Object_Detector\src\detector.py", line 121, in send_telegram_photo
+    r = requests.post(url, data=payload, files=files, timeout=10)
+  File "C:\Users\itsan\Desktop\Object_Detector\.venv\Lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "C:\Users\itsan\Desktop\Object_Detector\.venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\itsan\Desktop\Object_Detector\.venv\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\itsan\Desktop\Object_Detector\.venv\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\itsan\Desktop\Object_Detector\.venv\Lib\site-packages\requests\adapters.py", line 659, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', TimeoutError('The write operation timed out'))
+2025-11-04 15:07:40,752 [WARNING] Notification failed for label=cell phone
+2025-11-04 15:07:40,754 [INFO] Quit requested by user
+2025-11-04 15:07:41,235 [INFO] Clean exit
+2025-11-04 15:27:54,519 [INFO] Falling back to CPU backend for OpenCV DNN (CUDA backend/target not available or no CUDA devices found)
+2025-11-04 15:27:56,889 [INFO] Starting detector, press 'q' in the window to quit.
+2025-11-04 15:27:57,585 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-27-57.jpg
+2025-11-04 15:28:04,733 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-28-04.jpg
+2025-11-04 15:28:10,010 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-28-10.jpg
+2025-11-04 15:28:15,696 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-28-15.jpg
+2025-11-04 15:28:21,135 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-28-21.jpg
+2025-11-04 15:28:34,168 [INFO] Telegram response: 200 {"ok":true,"result":{"message_id":42,"from":{"id":8291475086,"is_bot":true,"first_name":"My Security Bot","username":"raisoni_security_alert_bot"},"chat":{"id":7038274330,"first_name":"Maximus","last_
+2025-11-04 15:28:34,172 [INFO] Notification sent for label=cell phone
+2025-11-04 15:28:34,796 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-28-34.jpg
+2025-11-04 15:28:40,283 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-28-40.jpg
+2025-11-04 15:28:54,537 [INFO] Telegram response: 200 {"ok":true,"result":{"message_id":43,"from":{"id":8291475086,"is_bot":true,"first_name":"My Security Bot","username":"raisoni_security_alert_bot"},"chat":{"id":7038274330,"first_name":"Maximus","last_
+2025-11-04 15:28:54,540 [INFO] Notification sent for label=remote
+2025-11-04 15:28:54,666 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-28-54.jpg
+2025-11-04 15:29:02,562 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-29-02.jpg
+2025-11-04 15:29:08,454 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-29-08.jpg
+2025-11-04 15:29:12,171 [INFO] Quit requested by user
+2025-11-04 15:29:12,790 [INFO] Clean exit
+2025-11-04 15:29:43,709 [INFO] Falling back to CPU backend for OpenCV DNN (CUDA backend/target not available or no CUDA devices found)
+2025-11-04 15:29:46,293 [INFO] Starting detector, press 'q' in the window to quit.
+2025-11-04 15:29:46,733 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-29-46.jpg
+2025-11-04 15:29:51,780 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-29-51.jpg
+2025-11-04 15:29:57,754 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-29-57.jpg
+2025-11-04 15:30:12,929 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-30-12.jpg
+2025-11-04 15:30:22,041 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-30-22.jpg
+2025-11-04 15:30:26,214 [INFO] Quit requested by user
+2025-11-04 15:30:27,221 [INFO] Clean exit
+2025-11-04 15:30:36,056 [INFO] Falling back to CPU backend for OpenCV DNN (CUDA backend/target not available or no CUDA devices found)
+2025-11-04 15:30:38,289 [INFO] Starting detector, press 'q' in the window to quit.
+2025-11-04 15:30:38,649 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-30-38.jpg
+2025-11-04 15:30:47,489 [INFO] Telegram response: 200 {"ok":true,"result":{"message_id":44,"from":{"id":8291475086,"is_bot":true,"first_name":"My Security Bot","username":"raisoni_security_alert_bot"},"chat":{"id":7038274330,"first_name":"Maximus","last_
+2025-11-04 15:30:47,493 [INFO] Notification sent for label=cell phone
+2025-11-04 15:30:54,158 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-30-54.jpg
+2025-11-04 15:30:59,311 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-30-59.jpg
+2025-11-04 15:31:04,584 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-31-04.jpg
+2025-11-04 15:31:10,806 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-31-10.jpg
+2025-11-04 15:31:16,626 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-31-16.jpg
+2025-11-04 15:31:24,248 [INFO] Telegram response: 200 {"ok":true,"result":{"message_id":45,"from":{"id":8291475086,"is_bot":true,"first_name":"My Security Bot","username":"raisoni_security_alert_bot"},"chat":{"id":7038274330,"first_name":"Maximus","last_
+2025-11-04 15:31:24,251 [INFO] Notification sent for label=laptop
+2025-11-04 15:31:32,182 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-31-32.jpg
+2025-11-04 15:31:41,146 [INFO] Telegram response: 200 {"ok":true,"result":{"message_id":46,"from":{"id":8291475086,"is_bot":true,"first_name":"My Security Bot","username":"raisoni_security_alert_bot"},"chat":{"id":7038274330,"first_name":"Maximus","last_
+2025-11-04 15:31:41,149 [INFO] Notification sent for label=person
+2025-11-04 15:31:41,294 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-31-41.jpg
+2025-11-04 15:31:47,597 [INFO] Telegram response: 200 {"ok":true,"result":{"message_id":47,"from":{"id":8291475086,"is_bot":true,"first_name":"My Security Bot","username":"raisoni_security_alert_bot"},"chat":{"id":7038274330,"first_name":"Maximus","last_
+2025-11-04 15:31:47,601 [INFO] Notification sent for label=laptop
+2025-11-04 15:31:48,913 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-31-48.jpg
+2025-11-04 15:31:54,281 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-31-54.jpg
+2025-11-04 15:32:00,385 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-32-00.jpg
+2025-11-04 15:32:05,676 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-32-05.jpg
+2025-11-04 15:32:11,247 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-32-11.jpg
+2025-11-04 15:32:22,287 [INFO] Snapshot saved: C:\Users\itsan\Desktop\Object_Detector\Image_snapshot\snapshot_2025-11-04_15-32-22.jpg
+2025-11-04 15:32:48,017 [INFO] Quit requested by user
+2025-11-04 15:32:48,709 [INFO] Clean exit

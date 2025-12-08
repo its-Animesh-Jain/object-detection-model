@@ -1,0 +1,10 @@
+{
+  "total_detections": 1,
+  "avg_objects_per_image": 1.0,
+  "avg_confidence": 0.6333191394805908,
+  "avg_processing_time": 0.9429347515106201,
+  "most_common_objects": {
+    "kite": 1
+  },
+  "performance_trend": "Insufficient data for trend analysis"
+}

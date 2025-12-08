@@ -1,0 +1,145 @@
+import cv2
+import numpy as np
+import os
+from datetime import datetime
+import requests
+import time
+
+# --- Telegram Bot Configuration ---
+BOT_TOKEN = "8291475086:AAFr2q1d4wYkapspV1YqtbAlklwcMOyPNAg"
+CHAT_ID = "7038274330"
+NOTIFICATION_COOLDOWN = 10
+last_notification_time = 0
+
+# --- Snapshot Cooldown Configuration ---
+SNAPSHOT_COOLDOWN = 5
+last_snapshot_time = 0
+
+# --- Load YOLO model ---
+net = cv2.dnn.readNet("yolov4-tiny.weights", "yolov4-tiny.cfg")
+
+# --- ADD THIS BLOCK BACK IN ---
+with open("coco.names", "r") as f:
+    classes = f.read().strip().split("\n")
+
+confThreshold = 0.5
+nmsThreshold = 0.4
+# --- END OF BLOCK ---
+
+def send_telegram_photo(caption, image):
+    url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendPhoto"
+    _, buffer = cv2.imencode('.jpg', image)
+    image_bytes = buffer.tobytes()
+    payload = {"chat_id": CHAT_ID, "caption": caption}
+    files = {"photo": ("image.jpg", image_bytes, "image/jpeg")}
+    try:
+        response = requests.post(url, data=payload, files=files)
+        print(f"📸 Telegram photo sent! Status: {response.status_code}")
+    except Exception as e:
+        print(f"❌ Failed to send Telegram photo: {e}")
+
+def detect_objects(frame):
+    height, width = frame.shape[:2]
+    blob = cv2.dnn.blobFromImage(frame, 1 / 255.0, (416, 416), swapRB=True, crop=False)
+    net.setInput(blob)
+    outputs = net.forward(net.getUnconnectedOutLayersNames())
+    boxes, confidences, class_ids = [], [], []
+    for output in outputs:
+        for detection in output:
+            scores = detection[5:]
+            class_id = np.argmax(scores)
+            confidence = scores[class_id]
+            if confidence > confThreshold:
+                center_x, center_y, w, h = int(detection[0] * width), int(detection[1] * height), int(detection[2] * width), int(detection[3] * height)
+                x, y = int(center_x - w / 2), int(center_y - h / 2)
+                boxes.append([x, y, w, h]); confidences.append(float(confidence)); class_ids.append(class_id)
+    indices = cv2.dnn.NMSBoxes(boxes, confidences, confThreshold, nmsThreshold)
+    object_counts, detection_details = {}, []
+    if len(indices) > 0:
+        for i in indices.flatten():
+            x, y, w, h = boxes[i]
+            label = classes[class_ids[i]]
+            object_counts[label] = object_counts.get(label, 0) + 1
+            detection_details.append({'label': label, 'box': (x, y, w, h)})
+            cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
+            cv2.putText(frame, label, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 0), 2)
+    return frame, object_counts, detection_details
+
+# --- Start webcam ---
+cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
+cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640); cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
+
+# --- Setup for saving snapshots ---
+snapshot_folder = "Image_snapshot"
+if not os.path.exists(snapshot_folder):
+    os.makedirs(snapshot_folder)
+    print(f"Folder created: {snapshot_folder}")
+objects_seen_in_previous_frame = set()
+
+# --- Define Restricted Zone ---
+ZONE_X1, ZONE_Y1, ZONE_X2, ZONE_Y2 = 100, 100, 540, 380
+
+print("📷 Press 'q' to quit.")
+
+# --- Main Loop ---
+while True:
+    ret, frame = cap.read()
+    if not ret: break
+
+    processed_frame, counts, detections = detect_objects(frame.copy())
+    current_time = time.time()
+
+    cv2.rectangle(processed_frame, (ZONE_X1, ZONE_Y1), (ZONE_X2, ZONE_Y2), (255, 0, 0), 2)
+    cv2.putText(processed_frame, "Restricted Zone", (ZONE_X1, ZONE_Y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 0, 0), 2)
+
+    # --- SNAPSHOT LOGIC ---
+    objects_in_current_frame = set(counts.keys())
+    newly_detected_objects = objects_in_current_frame - objects_seen_in_previous_frame
+    if newly_detected_objects and (current_time - last_snapshot_time) > SNAPSHOT_COOLDOWN:
+        timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+        filename = f"snapshot_{timestamp}.png"
+        file_path = os.path.join(snapshot_folder, filename)
+        snapshot_image = frame.copy()
+        for det in detections:
+            x, y, w, h = det['box']
+            cv2.rectangle(snapshot_image, (x, y), (x + w, y + h), (0, 255, 0), 2)
+        for det in detections:
+            if det['label'] in newly_detected_objects:
+                x, y, w, h = det['box']
+                label = f"NEW: {det['label']}"
+                cv2.rectangle(snapshot_image, (x, y), (x + w, y + h), (0, 0, 255), 3) 
+                cv2.putText(snapshot_image, label, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
+        cv2.imwrite(file_path, snapshot_image)
+        print(f"📸 Snapshot saved due to new object(s)! Cooldown started. File: {filename}")
+        last_snapshot_time = current_time
+    objects_seen_in_previous_frame = objects_in_current_frame
+    
+    # --- NOTIFICATION LOGIC ---
+    if (current_time - last_notification_time) > NOTIFICATION_COOLDOWN:
+        for det in detections:
+            x, y, w, h = det['box']
+            center_x = x + w // 2
+            center_y = y + h // 2
+            if ZONE_X1 < center_x < ZONE_X2 and ZONE_Y1 < center_y < ZONE_Y2:
+                object_label = det['label']
+                caption = f"🚨 ALERT: A '{object_label}' has been detected in the restricted zone!"
+                alert_image = frame.copy()
+                cv2.rectangle(alert_image, (ZONE_X1, ZONE_Y1), (ZONE_X2, ZONE_Y2), (255, 0, 0), 2)
+                cv2.rectangle(alert_image, (x, y), (x + w, y + h), (0, 0, 255), 3)
+                cv2.putText(alert_image, f"ALERT: {object_label}", (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
+                send_telegram_photo(caption=caption, image=alert_image)
+                last_notification_time = current_time
+                break
+
+    # --- DISPLAY COUNTS LOGIC ---
+    y_offset = 30
+    for object_name, count in counts.items():
+        text = f"{object_name}: {count}"
+        cv2.putText(processed_frame, text, (10, y_offset), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 0, 255), 2)
+        y_offset += 30
+
+    cv2.imshow("YOLO Live Security Feed", processed_frame)
+
+    if cv2.waitKey(1) & 0xFF == ord('q'): break
+
+cap.release(); cv2.destroyAllWindows()
